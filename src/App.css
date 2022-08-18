@@ -1,0 +1,75 @@
+.logo{
+    max-width:150px;
+    margin-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mainNav{
+    display:flex;
+    width:100%;
+    padding:10px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.heropic{
+    max-width: 800px;
+    align-self: center;
+}
+.hero{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+}
+.herotitle{
+    
+}
+.herodescription{
+    margin-top: -10px;
+}
+.card{
+    max-width: 200px;
+    display:flex;
+    flex-direction: column;
+}
+.cardReviewCount , .cardLocation{
+    color:grey;
+}
+.cardInfo {
+    margin-top: -10px;
+    display:flex;
+    align-items: center;   
+}
+.cardInfo > p {
+    padding:3px;
+}
+.star{
+    margin-bottom:2px;
+    width:15px;
+    height:15px;
+}
+.carddescription{
+    margin-top: -12px;
+}
+.cardprice{
+    margin-top:-12px;
+}
+.cards{
+    display:flex;
+}
+.card{
+    padding: 10px;
+}
+.person{
+    width:200px;
+    height: 275px;
+}
+.soldOutTag{
+    background-color: lightgrey;
+    position:relative;
+    width:fit-content;
+    padding:4px;
+    border-radius: 5%;
+    top:-410px;
+    left:5px;
+    font-size: small;
+    font-weight: bold;
+}
